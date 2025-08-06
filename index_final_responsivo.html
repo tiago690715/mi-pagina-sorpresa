@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para Mi Amor</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: linear-gradient(to right, #ff4b5c, #ffb6c1);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #000;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      display: inline-block;
+      color: #ffd4d4;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      color: #ff4b5c;
+    }
+
+    section {
+      padding: 1.5rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #ff4b5c;
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      text-align: center;
+    }
+
+    img, video, audio {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0.5rem auto;
+      border-radius: 12px;
+    }
+
+    .highlight {
+      font-size: 1.2rem;
+      color: #ff4b5c;
+      font-weight: bold;
+    }
+
+    .playlist {
+      background-color: #fff0f5;
+      padding: 1rem;
+      margin: 2rem auto;
+      border-radius: 20px;
+      border: 2px solid #e91e63;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .playlist p {
+      color: #c2185b;
+      font-size: 1rem;
+    }
+
+    footer {
+      background-color: #000;
+      color: #ffe0e0;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    @media screen and (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+
+      h1, h2 {
+        font-size: 1.4rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+    <header>
+        <h1>Hola, Mi Amor ❤️</h1>
+        <p class="highlight">Esta página es una sorpresa solo para ti</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-ti">Sobre Ti</a>
+        <a href="#Contador-De-Días">Contador De Días</a>
+        <a href="#momentos">Momentos</a>
+        <a href="#Play-List">Play List</a>
+        <a href="#mensaje">Mensaje</a>
+    </nav>
+  
+    <section style="text-align:center; margin: 50px 0; font-family: 'Arial'; color: #c2185b;">
+  <h2>💘 Contadores del Amor 💘</h2>
+  
+  <p id="novios" style="font-size: 24px; margin: 20px 0;"></p>
+  <p id="sinvernos" style="font-size: 24px;"></p>
+</section>
+
+<script>
+  // Fechas importantes
+  const fechaNovios = new Date("2024-12-10");
+  const fechaUltimaVez = new Date("2025-07-29");
+
+  // Fecha actual
+  const hoy = new Date();
+
+  // Calcular diferencia en milisegundos y convertir a días
+  const diasNovios = Math.floor((hoy - fechaNovios) / (1000 * 60 * 60 * 24));
+  const diasSinVernos = Math.floor((hoy - fechaUltimaVez) / (1000 * 60 * 60 * 24));
+
+  // Mostrar resultados
+  document.getElementById("novios").innerText = `❤️ Hemos sido novios durante ${diasNovios} días`;
+  document.getElementById("sinvernos").innerText = `😢 Llevamos ${diasSinVernos} días sin vernos`;
+</script>
+
+
+    <section id="inicio">
+        <h2>Bienvenida</h2>
+        <p>Aquí empieza una pequeña muestra de lo mucho que te amo. Gracias por estar en mi vida, hice algo nuevo para que asi siempre me recuerdes por algo y lo puedas presumir jsjsjs</p>
+    </section>
+
+    <section id="sobre-ti">
+        <h2>Sobre Ti</h2>
+        <p>Eres la persona más hermosa, fuerte, divertida y maravillosa que he conocido. Eres una niña que no le gusta expresarse mucho a la gente pero conmigo lo haces sin pensarlo dos veces, una de tus freces célebres es el "Cucha". Tu y yo entendemos eso de "mirarnos feo, jugar, y ser nosotros". Amas ver pelis conmigo en mi cuarto. No lo dices mucho pero amas que te trate como una niña chiquita. Ya desbloqueamos esa habilidad de conocer nuestros pensamientos solo con una mirada, osea nuestros poderes telepáticos. Cada día contigo es un regalo que atesoro con el alma.</p>
+    </section>
+
+    <section id="momentos">
+        <h2>Nuestros Momentos</h2>
+        <p>Fue Nuestra Primera Cita y Donde Supe que Enserio Quería Algo Bonito Contigo.</p>
+        <video width="320" height="240" controls>
+  <source src="video4.mp4" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
+<p>Un Primer Baile y Quieras o no Fué Nuestro "Baile Inolvidable".</p>
+        <video width="320" height="240" controls>
+  <source src="video3.mp4" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
+        <p>Nuestra Primera Foto y Primer mes.</p>
+        <img src="foto1.jpg" alt="nuestro primer mes" width="300">
+        <p>Te Llevaste mi camiseta de Ecuador y amé mucho ese momento.</p>
+        <img src="foto2.jpg" alt="nuestro primer mes" width="300">
+        <p>La Primera Vez que Salimos a Bailar con mi Familia.</p>
+        <img src="foto3.jpg" alt="nuestro primer mes" width="300">
+        <p>Tu Cumple jajaja, Ese Día lo amé, Me Reí y Nunca lo Olvidaré.</p>
+        <img src="foto4.jpg" alt="nuestro primer mes" width="300">
+        <p>Una Foto en Clases Donde te di Haciendo Tu Audio.</p>
+        <img src="foto5.jpg" alt="nuestro primer mes" width="300">
+        <p>"Para que recuerdes que siempre existe la Felicidad" Mi cumpleaños es un Día que Nunca Olvidaré Porque Despues de Dejarte Me Senté a Llorar en la Orilla del rio Sabiendo que de Verdad Encontré al Amor de mi vida, y esa Eres TÚ.</p>
+        <img src="foto7.jpg" alt="nuestro primer mes" width="300">
+        <p>Un Día Normal Donde Fuimos Vestidos Iguales y Además Visitamos El Cajas.</p>
+        <img src="foto6.jpg" alt="nuestro primer mes" width="300">
+        
+        <p>Un Video Donde Estabas Sentada en mis Piernas y lo Amo Como Idea no Tienes.</p>
+        <video width="320" height="240" controls>
+  <source src="video2.mp4" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
+<p>El Útimo Video Que te Grabé Antes de Terminar Clases.</p>
+<video width="320" height="240" controls>
+  <source src="video1.mp4" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
+
+<section style="text-align: center; margin-top: 50px; font-family: 'Arial', sans-serif;">
+  <h2 style="color: #e91e63;">🎵 Si Antes Te Hubiera Conocido (Karol G) </h2>
+  <div style="
+    background-color: #fff0f5;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border: 2px solid #e91e63;
+  ">
+    <p style="color: #c2185b; font-size: 18px; margin-bottom: 10px;">
+      💌 Porque yo si me caso contigo, tu nombre queda bien con mi apellido. 
+    </p>
+    <audio controls style="width: 100%; border-radius: 10px;">
+      <source src="cancion1.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio HTML5.
+    </audio>
+  </div>
+  <section style="text-align: center; margin-top: 50px; font-family: 'Arial', sans-serif;">
+  <h2 style="color: #e91e63;">🎵 Patadas de Ahogado (Latín Mafia) </h2>
+  <div style="
+    background-color: #fff0f5;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border: 2px solid #e91e63;
+  ">
+    <p style="color: #c2185b; font-size: 18px; margin-bottom: 10px;">
+      💌 No me da miedo admitir que desde la primera vez que te vi yo ya me lo veía venir que me enamoraría de Ti. 
+
+    </p>
+    <audio controls style="width: 100%; border-radius: 10px;">
+      <source src="cancion2.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio HTML5.
+    </audio>
+  </div>
+</section>
+<section style="text-align: center; margin-top: 50px; font-family: 'Arial', sans-serif;">
+  <h2 style="color: #e91e63;">🎵 Muchachita Linda (Juan Luis Guerra) </h2>
+  <div style="
+    background-color: #fff0f5;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border: 2px solid #e91e63;
+  ">
+    <p style="color: #c2185b; font-size: 18px; margin-bottom: 10px;">
+      💌 Esta canción siempre me hace acuerdo de ti y quisiera bailarla contigo algún día :3</p>
+    <audio controls style="width: 100%; border-radius: 10px;">
+      <source src="cancion3.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio HTML5.
+    </audio>
+  </div>
+</section>
+<section style="text-align: center; margin-top: 50px; font-family: 'Arial', sans-serif;">
+  <h2 style="color: #e91e63;">🎵 Cairo (Karol G) </h2>
+  <div style="
+    background-color: #fff0f5;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border: 2px solid #e91e63;
+  ">
+    <p style="color: #c2185b; font-size: 18px; margin-bottom: 10px;">
+      💌 No tengo por qué explicar esta canción si ambos sabemos el feeling que nos trae jsjsjs.
+    </p>
+    <audio controls style="width: 100%; border-radius: 10px;">
+      <source src="cancion4.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio HTML5.
+    </audio>
+  </div>
+</section>
+<section style="text-align: center; margin-top: 50px; font-family: 'Arial', sans-serif;">
+  <h2 style="color: #e91e63;">🎵 Virgen (Adolescent’s Orquesta) </h2>
+  <div style="
+    background-color: #fff0f5;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border: 2px solid #e91e63;
+  ">
+    <p style="color: #c2185b; font-size: 18px; margin-bottom: 10px;">
+      💌 Y una salsa que nos puede faltar, aquí solo es un sentimiento que quiero que nunca olvides, gracias ti volví a amar la salsa, Te Amo ❤.
+    </p>
+    <audio controls style="width: 100%; border-radius: 10px;">
+      <source src="cancion5.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio HTML5.
+    </audio>
+  </div>
+</section>
+
+        </section>
+
+    <section id="mensaje">
+        <h2>Un Mensaje Especial</h2>
+        <p>Te amo con todo mi corazón. Con esto quiero mostrarte que no importa el tiempo que me tome hacerlo, los meses, los dias, las horas, la distacia o cualquier otra cosa, solo quiero mostrarte que te amo como idea no tienes mi Niña Boba, Mi Reina, Mi Amor. Esta página es solo un pedacito de todo lo que me haces sentir. Gracias por ser tú y felices 8 meses mi amor. ❤️</p>
+    </section>
+
+    <footer>
+        <p>Hecho con amor por alguien que no puede dejar de pensar en ti 💕</p>
+    </footer>
+</body>
+</html>
