@@ -61,9 +61,36 @@
     <nav>
         <a href="#inicio">Inicio</a>
         <a href="#sobre-ti">Sobre Ti</a>
+        <a href="#Tiempos-Nuestros">Sobre Ti</a>
         <a href="#momentos">Momentos</a>
         <a href="#mensaje">Mensaje</a>
     </nav>
+  
+    <section id="inicio">
+    <section style="text-align:center; margin: 50px 0; font-family: 'Arial'; color: #c2185b;">
+  <h2>💘 Contadores del Amor 💘</h2>
+  
+  <p id="novios" style="font-size: 24px; margin: 20px 0;"></p>
+  <p id="sinvernos" style="font-size: 24px;"></p>
+</section>
+
+<script>
+  // Fechas importantes
+  const fechaNovios = new Date("2024-12-10");
+  const fechaUltimaVez = new Date("2025-07-29");
+
+  // Fecha actual
+  const hoy = new Date();
+
+  // Calcular diferencia en milisegundos y convertir a días
+  const diasNovios = Math.floor((hoy - fechaNovios) / (1000 * 60 * 60 * 24));
+  const diasSinVernos = Math.floor((hoy - fechaUltimaVez) / (1000 * 60 * 60 * 24));
+
+  // Mostrar resultados
+  document.getElementById("novios").innerText = `❤️ Hemos sido novios durante ${diasNovios} días`;
+  document.getElementById("sinvernos").innerText = `😢 Llevamos ${diasSinVernos} días sin vernos`;
+</script>
+
 
     <section id="inicio">
         <h2>Bienvenida</h2>
